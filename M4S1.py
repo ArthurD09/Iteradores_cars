@@ -63,4 +63,4 @@ id_marca = 21
 fipe_iterator = FipeIterator(id_marca)
 
 for modelo in fipe_iterator:
-    print(f'ID: {modelo['codigo']}, Nome: {modelo['nome']}')
+    print(f"ID: {modelo['codigo']}, Nome: {modelo['nome']}")
